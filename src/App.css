@@ -28,6 +28,40 @@
   color: #61dafb;
 }
 
+.centerContainer{
+ display: flex;
+ width: 100%;
+ height: 80vh;
+ align-items: center;
+ justify-content: center;
+}
+.buttonMargin{
+  margin-top: 4px;
+}
+.wrapText {
+  width:100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  background:#fff;
+ 
+}
+.scrollView{
+  height: 300px;
+  overflow-y:scroll ;
+}
+
+.centerAlign{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.marginBottom{
+  margin-bottom: 6px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
